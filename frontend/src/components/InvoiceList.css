@@ -1,0 +1,189 @@
+.MuiDataGrid-columnHeaderTitle {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: calc(10pt + 0.15vw);
+}
+
+.MuiDataGrid-cell {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: calc(9pt + 0.15vw);
+}
+
+h2 {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: calc(14pt + 0.15vw);
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+h2 span {
+    border-bottom: 4px solid #0E185F;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.months {
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    outline: none;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    border: 1px solid #F7F7F7;
+}
+
+.count-Invoice {
+    background-color: #F7F7F7;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 2rem auto;
+    left: 2%;
+    top: 50px;
+    z-index: 4444444;
+    position: fixed;
+    border: none;
+    outline: none;
+    transition: all 300ms ease;
+}
+
+.month-dropdown {
+    margin-top: 8rem;
+}
+
+.count-Invoice>div {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: calc(14pt + 0.15vw);
+}
+
+.MuiTypography-root {
+    font-family: 'Poppins', 'sans-serif' !important;
+    letter-spacing: 0.03em !important;
+}
+
+.count-Invoice:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    background: repeating-radial-gradient(rgba(33, 137, 232, 0.0) 0%,
+            rgba(33, 137, 232, 0.15) 50%,
+            rgba(33, 137, 232, 0.5) 75%,
+            rgba(33, 137, 232, 0.05) 100%);
+    animation: pulse_shadow 2s ease-in-out infinite;
+}
+
+
+@keyframes pulse_pseudo {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2.25);
+    }
+}
+
+
+@keyframes pulse_shadow {
+    0% {
+        box-shadow: 0px 0px 0px 0px rgba(33, 137, 232, 0.25);
+    }
+
+    100% {
+        box-shadow: 0px 0px 3px 30px rgba(33, 137, 232, 0.0);
+    }
+}
+
+.MuiDataGrid-columnsContainer {
+    background-color: #F7F7F7;
+}
+
+.btn-green:hover {
+    color: #23d573;
+}
+
+.btn-red:hover {
+    color: #ff4757;
+}
+
+.No-Invoices {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.No-Invoices>h3 {
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.No-Invoices>button {
+    background-color: #F7F7F7;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    margin-top: 1rem;
+    padding: 10px 20px 10px 20px;
+}
+
+.month-dropdown>select {
+    outline: none;
+    padding: 8px;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    height: 40px;
+}
+
+
+.invoice-detailer {
+    margin-top: 6.8rem;
+}
+
+.greenColor {
+    color: #357C3C;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+}
+
+.redColor {
+    color: #E83A14;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+}
+
+.extra-terms>td{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 0px !important;
+}
+
+.extra-terms>td>div>p{
+    margin-bottom: 0rem !important;
+}
+
+.extra-fields-table{
+    height: 30px !important;
+}

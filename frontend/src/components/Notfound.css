@@ -1,0 +1,13 @@
+.pg404{
+    background-color: #F4F5F4;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pg404>img{
+    width: 45%;
+}
